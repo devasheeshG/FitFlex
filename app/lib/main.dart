@@ -1,22 +1,22 @@
-import 'package:fitness_app_live/screens/GoalScreen/GoalScreen.dart';
-import 'package:fitness_app_live/screens/Login%20signUp/LoginSignUp.dart';
-import 'package:fitness_app_live/screens/Login%20signUp/forgotPassword.dart';
-import 'package:fitness_app_live/screens/OnBoardingScreen/onBoardingScreen.dart';
-import 'package:fitness_app_live/screens/ProfilePage/profilePage.dart';
-import 'package:fitness_app_live/screens/activityLevelScreen/activityLevelScreen.dart';
-import 'package:fitness_app_live/screens/homeScreen/Notifications.dart';
-import 'package:fitness_app_live/screens/homeScreen/bottomNavigationbar.dart';
-import 'package:fitness_app_live/screens/homeScreen/homeScreen.dart';
-import 'package:fitness_app_live/screens/weightScreen/WeightScreen.dart';
-import 'package:fitness_app_live/screens/workoutCategories.dart';
+import 'package:fitness_app_live/screens/goal_screen/goal_screen.dart';
+import 'package:fitness_app_live/screens/login_signup/login_signup.dart';
+import 'package:fitness_app_live/screens/login_signup/forgot_password.dart';
+import 'package:fitness_app_live/screens/onboarding_screen/onboarding_screen.dart';
+import 'package:fitness_app_live/screens/profile_page/profile_page.dart';
+import 'package:fitness_app_live/screens/activity_level_screen/activityLevelScreen.dart';
+import 'package:fitness_app_live/screens/home_screen/notifications.dart';
+import 'package:fitness_app_live/screens/home_screen/bottom_navigation_bar.dart';
+import 'package:fitness_app_live/screens/home_screen/home_screen.dart';
+import 'package:fitness_app_live/screens/weight_screen/weight_screen.dart';
+import 'package:fitness_app_live/screens/workout_categories.dart';
 
 import 'package:flutter/material.dart';
 
-import 'screens/ProfilePage/PrivacyPolicy.dart';
-import 'screens/ProfilePage/SettingsPage.dart';
-import 'screens/ageScreen/ageScreen.dart';
-import 'screens/genderScreen/genderScreen.dart';
-import 'screens/heightScreen/heightScreen.dart';
+import 'screens/profile_page/privacy_policy.dart';
+import 'screens/profile_page/settings_page.dart';
+import 'screens/age_screen/age_screen.dart';
+import 'screens/gender_screen/gender_screen.dart';
+import 'screens/height_screen/height_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,26 +31,26 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       color: Colors.black,
       routes: {
-        '/onboarding': (context) => OnBoardingScreen(),
-        '/gender': (context) => GenderPage(),
-        '/age': (context) => AgePage(),
-        '/height': (context) => HeightPage(),
-        '/weight': (context) => WeightPage(),
-        '/activity': (context) => ActivityLevelPage(),
-        '/goal': (context) => GoalPage(),
-        '/forgotPassword': (context) => ForgotPassword(),
-        '/login': (context) => SignUp(),
-        '/home': (context) => HomePage(),
-        '/notifications': (context) => NotificationPage(),
-        '/workoutCategories': (context) => WorkoutCategories(),
-        '/bottomNavigationbar': (context) => HomepageNavbar(),
-        '/profile': (context) => ProfilePage(),
+        '/onboarding': (context) => const OnBoardingScreen(),
+        '/gender': (context) => const GenderPage(),
+        '/age': (context) => const AgePage(),
+        '/height': (context) => const HeightPage(),
+        '/weight': (context) => const WeightPage(),
+        '/activity': (context) => const ActivityLevelPage(),
+        '/goal': (context) => const GoalPage(),
+        '/forgotPassword': (context) => const ForgotPassword(),
+        '/login': (context) => const SignUp(),
+        '/home': (context) => const HomePage(),
+        '/notifications': (context) => const NotificationPage(),
+        '/workoutCategories': (context) => const WorkoutCategories(),
+        '/bottomNavigationBar': (context) => const HomepageNavbar(),
+        '/profile': (context) => const ProfilePage(),
         '/privacyPolicy': (context) => PrivacyPolicyPage(),
-        '/settings': (context) => SettingsPage(),
+        '/settings': (context) => const SettingsPage(),
         
       },
       debugShowCheckedModeBanner: false,
-      home: OnBoardingScreen(),
+      home: const OnBoardingScreen(),
     );
   }
 }

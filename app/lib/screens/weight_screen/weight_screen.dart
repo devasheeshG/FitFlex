@@ -1,8 +1,8 @@
 import 'package:fitness_app_live/constants/color.dart';
 import 'package:flutter/material.dart';
 
-import '../../models/DetailPageButton.dart';
-import '../../models/DetailPageTitle.dart';
+import '../../models/detail_page_button.dart';
+import '../../models/detail_page_title.dart';
 
 class WeightPage extends StatefulWidget {
   const WeightPage({super.key});

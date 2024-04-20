@@ -1,7 +1,7 @@
-import 'package:fitness_app_live/Provider/user_provider.dart';
-import 'package:fitness_app_live/models/DetailPageButton.dart';
-import 'package:fitness_app_live/models/DetailPageTitle.dart';
-import 'package:fitness_app_live/models/ListWheelViewScroller.dart';
+import 'package:fitness_app_live/provider/user_provider.dart';
+import 'package:fitness_app_live/models/detail_page_button.dart';
+import 'package:fitness_app_live/models/detail_page_title.dart';
+import 'package:fitness_app_live/models/list_wheel_view_scroller.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

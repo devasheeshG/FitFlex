@@ -76,7 +76,7 @@ class _OnBoardingScreen extends State<OnBoardingScreen> {
                       children: [
                         TextButton(
                           onPressed: () {
-                            Navigator.pushNamed(context, '/gender');
+                            Navigator.pushNamed(context, '/login');
                           },
                           child: const Text(
                             'Get Started',
