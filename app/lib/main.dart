@@ -1,5 +1,5 @@
 import 'package:fitness_app_live/screens/GoalScreen/GoalScreen.dart';
-import 'package:fitness_app_live/screens/Login%20signUp/LoginSignup.dart';
+import 'package:fitness_app_live/screens/Login%20signUp/LoginSignUp.dart';
 import 'package:fitness_app_live/screens/Login%20signUp/forgotPassword.dart';
 import 'package:fitness_app_live/screens/OnBoardingScreen/onBoardingScreen.dart';
 import 'package:fitness_app_live/screens/ProfilePage/profilePage.dart';
